@@ -6,12 +6,12 @@ Ray Command is an intelligent CLI tool that leverages AI to help you generate an
 ✨ Features
  - Generate bash commands using AI
  - Direct command execution
- - Support for multiple AI providers (DeepSeek currently implemented)
+ - Support for multiple AI providers ([DeepSeek](http://deepseek.com/) currently implemented)
 
 
 🛠 Prerequisites
  - Go 1.22.10 or higher
- - DeepSeek & OpenAI API Key
+ - [DeepSeek](http://deepseek.com/) & [OpenAI](https://openai.com/) API Key
  - bash shell
 
 
@@ -25,7 +25,7 @@ cd raycommand
 ```bash
 go mod tidy
 ```
-3. Set up environment variables: Create a .env file in the project root and add your DeepSeek API key:
+3. Set up environment variables: Create a .env file in the project root and add your [DeepSeek](http://deepseek.com/)  API key:
 ```bash
 DEEPSEEK_API_KEY=your_api_key_here
 ```
